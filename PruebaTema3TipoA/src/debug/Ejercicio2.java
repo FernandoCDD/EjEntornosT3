@@ -50,7 +50,7 @@ public class Ejercicio2 {
     	}
     	
     	// Idem para el segundo array
-    	for(int i = 0; i < array2.length; i++) {
+    	for(int i = 2; i < array2.length; i++) {
     		if (!contains(array2[i], arrayComunes)) {
     			resultado[pos] = array2[i];
     			pos++;
